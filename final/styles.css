@@ -1,0 +1,130 @@
+/* Стили для заголовка */
+h1 {
+  font-family: Arial, sans-serif;
+  color: #2980b9;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Стили для навигационной панели */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Стили для секций */
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: #2980b9;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+ul {
+  font-family: Arial, sans-serif;
+  color: #333;
+  list-style-type: disc;
+  margin-left: 20px;
+
+}
+
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Стили футера */
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.contact{
+  padding: 20px;
+}
+
+.container1 {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 20px;
+
+  width: 100%;
+}
+
+.photo {
+  flex: 1;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.icerikbaslik{
+  color: black;
+}
+
+video{
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.icerikgorsel{
+  border-radius: 10px;
+}
+
+hr{
+  max-width: 800px;
+}

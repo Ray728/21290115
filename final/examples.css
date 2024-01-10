@@ -1,0 +1,56 @@
+hr{
+    max-width: 800px;
+}
+
+
+
+.icerik{
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1000px;
+    background: #2980b9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.icerikgorsel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.icerikbaslik{
+    color: black;
+}
+
+.icerikyazi{
+    text-align: left;
+    color: black;
+}
+
+video{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+  }
+
+  .photo {
+    flex: 1;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .text {
+    flex: 1;
+    text-align: center;
+    margin-right: 60px;
+  }
+
